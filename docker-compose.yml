@@ -1,0 +1,14 @@
+db:
+  image: mysql
+  volumes:
+    - ~/sitesc/database/:/var/lib/mysql/
+  environment:
+    - MYSQL_ROOT_PASSWORD=wordpress
+sitesc:
+  image: wordpress:latest
+  volumes:
+    - .:/var/www/html/wp-content/themes/soul-cde-wp
+  links:
+    - db:mysql
+  ports:
+    - 80:80
