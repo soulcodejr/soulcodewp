@@ -47,11 +47,11 @@ Table of Contents:
 ---------------*/
 
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
-@import "css/revolution-slider.css";
+@import "assets/stylesheets/revolution-slider.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css");
-@import "cubeportfolio.min.css";
+@import "assets/stylesheets/cubeportfolio.min.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/flexslider.min.css");
-@import "liquid-slider.css";
+@import "assets/stylesheets/liquid-slider.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.0.2/css/jquery.mb.YTPlayer.min.css");
 @import "../theme_panel/theme_panel.css";
 
@@ -64,37 +64,37 @@ Table of Contents:
 
 /*---- Backgrounds ----*/
 #home {
-	background-image: url(../img/backgrounds/bg_1.jpg);
+	background-image: url(assets/images/backgrounds/bg_1.jpg);
 }
 #who-we-are {
-	background-image: url(../img/backgrounds/bg_2.jpg);
+	background-image: url(assets/images/backgrounds/bg_2.jpg);
 }
 #separator-quotes {
-	background-image: url(../img/backgrounds/bg_4.jpg);
+	background-image: url(assets/images/backgrounds/bg_4.jpg);
 }
 #separator-purchase {
-	background-image: url(../img/backgrounds/bg_5.jpg);
+	background-image: url(assets/images/backgrounds/bg_5.jpg);
 }
 #separator-testimonials {
-	background-image: url(../img/backgrounds/bg_6.jpg);
+	background-image: url(assets/images/backgrounds/bg_6.jpg);
 }
 #separator-video {
-	background-image: url(../img/backgrounds/bg_3.jpg)
+	background-image: url(assets/images/backgrounds/bg_3.jpg)
 }
 #twitter-feed {
-	background-image: url(../img/backgrounds/bg_3.jpg);
+	background-image: url(assets/images/backgrounds/bg_3.jpg);
 }
 #get-connected {
-	background-image: url(../img/backgrounds/bg_7.jpg);
+	background-image: url(assets/images/backgrounds/bg_7.jpg);
 }
 #contact-details {
-	background-image: url(../img/backgrounds/bg_8.jpg);
+	background-image: url(assets/images/backgrounds/bg_8.jpg);
 }
 #home-pattern {
-	background-image: url(../img/backgrounds/pattern-1.jpg);
+	background-image: url(assets/images/backgrounds/pattern-1.jpg);
 }
 #home-youtube {
-	background-image: url(../img/backgrounds/bg_youtube.jpg);
+	background-image: url(assets/images/backgrounds/bg_youtube.jpg);
 }
 
 /*---- General ----*/
@@ -345,7 +345,7 @@ h2 small {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/assets/dot-pattern.png);
+	background-image: url(assets/images/assets/dot-pattern.png);
 	background-repeat: repeat;
 	z-index: 2;
 }
@@ -452,7 +452,7 @@ h2 small {
 }
 .dots {
 	z-index: 99;
-	background-image: url(../img/dot.png);
+	background-image: url(assets/images/dot.png);
 	background-repeat: repeat-y;
 	margin: auto;
 	width: 6px;
@@ -522,7 +522,7 @@ h2 small {
 .tp-banner li:after {
     content: "";
     position: absolute;
-    background: url(../img/assets/gridtile.png) repeat;
+    background: url(assets/images/assets/gridtile.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -532,7 +532,7 @@ h2 small {
 .tp-banner-video li:after {
     content: "";
     position: absolute;
-    background: url(../img/assets/gridtile.png) repeat;
+    background: url(assets/images/assets/gridtile.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -542,7 +542,7 @@ h2 small {
 .tp-loader.spinner1 {
     width: 40px;
     height: 40px;
-    background: url(../img/assets/rev-loader.GIF) no-repeat center center;
+    background: url(assets/images/assets/rev-loader.GIF) no-repeat center center;
     background-color: transparent;
     box-shadow:  none;
     -webkit-box-shadow: none;
@@ -1529,27 +1529,27 @@ line-height: 0px;
 }
 .cbp-popup-lightbox .cbp-popup-close {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-close-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-close-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-close:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-close-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-close-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-prev {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-prev-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-prev-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-prev:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-prev-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-prev-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-next {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-next-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-next-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-next:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-next-light.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-next-light.png") no-repeat;
 }
 
 .cbp-popup-singlePage .cbp-popup-close,
@@ -1562,28 +1562,28 @@ line-height: 0px;
     transition: all 0.11s ease-in-out;
 }
 .cbp-popup-singlePage .cbp-popup-prev {
-    background: url("../img/portfolio/buttons/popup-prev-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-prev-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-prev:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-prev-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-prev-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-next {
-    background: url("../img/portfolio/buttons/popup-next-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-next-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-next:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-next-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-next-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-close {
-    background: url("../img/portfolio/buttons/popup-close-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-close-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-close:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-close-dark.png") no-repeat;
+    background: url("assets/images/portfolio/buttons/popup-close-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-content {
     margin-top: 0;
@@ -2073,7 +2073,7 @@ textarea {
 	color: #8a1f11;
 	-webkit-border-radius: 5px;
 	background-color: #FBE3E4;
-	background-image: url(../img/error.gif);
+	background-image: url(assets/images/error.gif);
 	background-position: 10px center;
 	background-repeat: no-repeat;
 }
