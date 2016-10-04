@@ -10,7 +10,7 @@ if (have_posts()) {
 		?>
 
       <div class="flexslider project-img">
-         <?php the_post_thumbnail(); ?>
+         <?php the_post_thumbnail('thumbnail'); ?>
       </div>
 
   <h2 class="post-title"><?php the_title();?></h2>
