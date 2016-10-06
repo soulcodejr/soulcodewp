@@ -33,8 +33,13 @@ function client_register(){
   register_post_type('clientes', $args);
 }
 
+function registration_menu_navation(){
+  register_nav_menu('header-menu','main-menu');
+}
+
 
 //Call function
 add_action('init', 'client_register' );
+add_action('init', 'registration_menu_navation');
 
 ?>
