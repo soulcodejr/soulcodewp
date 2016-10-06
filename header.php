@@ -5,6 +5,6 @@
   <meta charset="utf-8">
   <?php wp_head();?>
 
-  <link rel="stylesheet" type="text/css" href="<?php $home; ?>/style.css">
+  <link href="<?= $home; ?>/style.css" rel="stylesheet">
 </head>
 <body>
