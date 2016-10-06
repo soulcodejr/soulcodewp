@@ -3,7 +3,12 @@
 <head>
   <?php $home = get_template_directory_uri(); ?>
   <meta charset="utf-8">
+  <title>
+  	<?php gera_title(); ?>
+
+  </title>
   <?php wp_head();?>
+
 
   <link href="<?= $home; ?>/style.css" rel="stylesheet">
 </head>
