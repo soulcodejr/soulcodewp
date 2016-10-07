@@ -911,11 +911,22 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
     display: inline-block;
     padding-left: 20px;
 }
-.feature-box {
-    background-color: rgba(0,0,0,0.045);
+.feature-box { 
     padding: 40px;
 }
 
+.feature-box h4 {
+    color: white;
+}
+
+
+.feature-box p {
+    color: white;
+}
+
+.feature-box i{ 
+  color: white;
+}
 /*////////////////////////////////////////
 // Progress Bars
 ///////////////////////////////////////*/
@@ -4065,6 +4076,20 @@ ul {
 .list-icons i {
     margin-right: 10px;
 }
+
+/* Colors */
+.yellow{
+    background: #009bdd;
+}
+
+.purple{
+    background: #9d60b8;
+}
+
+.orange{
+    background: #f1634b;
+}
+/* Colors */
 
 /*////////////////////////////////////////
 // Spacing

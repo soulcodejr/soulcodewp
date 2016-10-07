@@ -38,7 +38,7 @@
       if(!has_custom_logo()){
         ?>
 
-        <h1><?php bloginfo('name'); ?></h1>
+        <h3><?php bloginfo('name'); ?></h3>
 
         <?php
       }
