@@ -54,6 +54,7 @@ body {
     font-family: 'Hind', sans-serif;
     color: #666;
     font-weight: 400;
+    padding-top: 100px;
 }
 ::selection {
     background: rgba(0,0,0,.16)
@@ -2960,7 +2961,7 @@ nav a {cursor: pointer}
         z-index: 1030;
         border-radius: 0;
         border: none;
-        box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
+        box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
     }
     nav .nav {
         height: 68px;

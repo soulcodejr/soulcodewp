@@ -46,7 +46,7 @@
         ?></a>
       </div>
     <div class="collapse navbar-collapse" id="main-nav">
-      <ul class="nav navbar-nav  navbar-right">
+      <ul class="nav navbar-nav navbar-right">
             <?php
             $args = array(
               'theme_location' => 'header-menu',
