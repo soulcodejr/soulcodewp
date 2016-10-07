@@ -46,7 +46,8 @@
           <li>
             <?php
             $args = array(
-              'theme_location' => 'header-menu'
+              'theme_location' => 'header-menu',
+              'container_class' => ''
               );
             wp_nav_menu($args);
             ?></li>

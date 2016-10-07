@@ -57,6 +57,10 @@ function registration_menu_navation(){
   register_nav_menu('header-menu','main-menu');
 }
 
+function wp_nav_menu_remove_attributes( $menu ){
+    return $menu = preg_replace('/ id=\"(.*)\" class=\"(.*)\"/iU', '', $menu );
+}
+
 function gera_title(){
             bloginfo ('name');
             if( !is_home() ) echo ' | ';
@@ -82,6 +86,7 @@ function theme_prefix_setup(){
 add_action('init', 'client_register' );
 add_action('init', 'blog_register');
 add_action('init', 'registration_menu_navation');
-add_action('after_setup_theme', 'theme_prefix_setup')
+add_action('after_setup_theme', 'theme_prefix_setup');
+add_filter( 'wp_nav_menu', 'wp_nav_menu_remove_attributes' );
 
 ?>
