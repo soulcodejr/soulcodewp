@@ -9,8 +9,10 @@
   </title>
   <?php wp_head();?>
 
-
+  <link href="<?= $home; ?>/assets/stylesheets/reset.css" rel="stylesheet">
   <link href="<?= $home; ?>/style.css" rel="stylesheet">
+  <link href="<?= $home; ?>/assets/stylesheets/colors/blue.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -40,21 +42,21 @@
 
         ?></a>
       </div>
-
-      <div class="collapse navbar-collapse" id="main-nav">
-        <ul class="nav navbar-nav  navbar-right rez-drop">
-          <li>
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="nav navbar-nav  navbar-right">
             <?php
             $args = array(
               'theme_location' => 'header-menu',
-              'container_class' => ''
+              'container_class' => '',
+              'container' => false,
+              'items_wrap' => '%3$s',
+              'menu_class' => 'nav navbar-nav navbar-right'
               );
             wp_nav_menu($args);
-            ?></li>
-
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-  </section>
-        <!--End Header-->
+            ?>
+      </ul>
+   </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+  </nav>
+</section>
+<!--End Header-->
