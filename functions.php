@@ -79,6 +79,12 @@ function theme_prefix_setup(){
 }
 
 
+function new_submenu_class($menu){
+ $menu = preg_replace('/ class="sub-menu"/', '/ class"dropdown-menu"', $menu);
+ return $menu;
+}
+
+
 
 //END FUNCTIONS
 
@@ -88,5 +94,6 @@ add_action('init', 'blog_register');
 add_action('init', 'registration_menu_navation');
 add_action('after_setup_theme', 'theme_prefix_setup');
 add_filter( 'wp_nav_menu', 'wp_nav_menu_remove_attributes' );
+add_filter( 'wp_nav_menu', 'new_submenu_class' );
 
 ?>

@@ -3,13 +3,16 @@
 <head>
   <?php $home = get_template_directory_uri(); ?>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
     <?php gera_title(); ?>
 
   </title>
   <?php wp_head();?>
 
-  <link href="<?= $home; ?>/assets/stylesheets/reset.css" rel="stylesheet">
+  <link href="<?= $home; ?>/assets/stylesheets/init.css" rel="stylesheet" type="text/css">
+  <link href="<?= $home; ?>/assets/stylesheets/ion-icons.min.css" rel="stylesheet" type="text/css">
+  <link href="<?= $home; ?>/assets/stylesheets/etline-icons.min.css" rel="stylesheet" type="text/css">
   <link href="<?= $home; ?>/style.css" rel="stylesheet">
   <link href="<?= $home; ?>/assets/stylesheets/colors/blue.css" rel="stylesheet">
 
